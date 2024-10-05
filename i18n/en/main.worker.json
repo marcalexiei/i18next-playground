@@ -1,0 +1,81 @@
+{
+  "shift_acceptation_modal": {
+    "alert": "test",
+    "button": "test",
+    "rules_title": "test",
+    "title": "test"
+  },
+  "shift_application_modal": {
+    "alert": "test",
+    "application_button": "test",
+    "explanation": "test",
+    "multiple_specialties": "test",
+    "rule_0": "test",
+    "rule_0bis": "test",
+    "rule_1": "test",
+    "rule_2": "test",
+    "rule_3": "test",
+    "rule_4": "test"
+  },
+  "shift_cancel_modal": {
+    "admin_section_deactivated": "test",
+    "admin_section_email_button": "test",
+    "title": "test"
+  },
+  "shift_cancellation": {
+    "policy_page_abs_text1": "test",
+    "policy_page_abs_text2": "test",
+    "policy_page_abs_text3": "test",
+    "policy_page_abs_title1": "test",
+    "policy_page_title": "Cancellation Policy"
+  },
+  "shift_card_hourly_rate": "test",
+  "shift_deal_modal": {
+    "comment_placeholder": "Write a question, a need or any other request related to this mission.",
+    "comment_title": "test",
+    "title": "Apply"
+  },
+  "shift_details": {
+    "add_to_calendar_link": "Add to calendar",
+    "service_bed": "{{beds_capacity}} beds",
+    "service_building": "Building {{building}}",
+    "service_digicode": "Digicode {{digicode}}",
+    "service_floor": "Floor {{floor}}",
+    "service_free_parking": "Free parking",
+    "service_meal_not_provided": "Meals not included",
+    "service_meal_provided": "Meals available",
+    "service_no_parking": "No parking",
+    "service_outfit_not_provided": "Outfit not supplied",
+    "service_outfit_provided": "Outfit provided",
+    "service_paid_parking": "Paid parking",
+    "service_section_title": "Service",
+    "service_software": "test",
+    "service_workers_per_shift": "test",
+    "shift_duration": "Total duration: {{duration}}",
+    "sign_dialog": "test",
+    "success_message_download": "test",
+    "tab_details": "Details",
+    "tab_institution": "Facility",
+    "title": "test"
+  },
+  "shift_refusal_modal": {
+    "text": "test",
+    "title": "test"
+  },
+  "shift": {
+    "application_arrival_formalities_button": "test",
+    "application_arrival_formalities_title": "test",
+    "application_contact_title": "test",
+    "application_link_arrival_formalities": "test",
+    "application_progress_button": "test",
+    "application_progress_message": "test",
+    "application_progress_title": "test",
+    "application_section_message_application_refused": "test",
+    "application_section_message_in_process": "test",
+    "success_message_apply": "test",
+    "success_message_assign": "test"
+  },
+  "shifts": {
+    "preferences_pool": "test"
+  }
+}
