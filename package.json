@@ -1,14 +1,16 @@
 {
   "name": "i18next-playground",
+  "description": "",
   "private": true,
   "version": "1.0.0",
-  "exports": "./src/index.ts",
   "scripts": {
     "build": "npm run build -workspaces",
     "typecheck": "npm run typecheck -workspaces"
   },
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "5.8.3"
+  },
   "dependencies": {},
   "workspaces": [
     "examples/*"
