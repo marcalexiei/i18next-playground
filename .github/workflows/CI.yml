@@ -1,0 +1,35 @@
+name: CI
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.head_ref || github.ref }}"
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  test-build:
+    name: Test "${{ matrix.scenario }}" build scenario
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        scenario:
+          - react-use-translation-ns
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        uses: ./.github/actions/install-dependencies
+        with:
+          node-version: 24
+
+      - name: Typecheck
+        run: pnpm run --filter="${{ matrix.scenario }}" typecheck
