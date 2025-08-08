@@ -1,0 +1,25 @@
+{
+  "exclude": ["dist"],
+  "compilerOptions": {
+    // Typechecking
+    "strictNullChecks": true,
+
+    // Modules
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+
+    // Emit
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "outDir": "dist",
+
+    // Interop Constraints
+    "esModuleInterop": true,
+    "target": "ES2022",
+
+    // Language and Environment
+    "lib": ["ES2022", "DOM"]
+  }
+}
