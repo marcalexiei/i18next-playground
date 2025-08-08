@@ -14,13 +14,15 @@ permissions:
 
 jobs:
   test-build:
-    name: Test "${{ matrix.scenario }}" build scenario
+    name: Typecheck "${{ matrix.example }}" example
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        scenario:
+        example:
+          - base
           - react-use-translation-ns
+          - react-use-translation-ns-selector
 
     steps:
       - name: Checkout
@@ -32,4 +34,4 @@ jobs:
           node-version: 24
 
       - name: Typecheck
-        run: pnpm run --filter="${{ matrix.scenario }}" typecheck
+        run: pnpm run --filter="${{ matrix.example }}" typecheck
