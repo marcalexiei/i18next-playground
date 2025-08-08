@@ -1,11 +1,12 @@
-import { useTranslation } from "react-i18next";
+import { t } from 'i18next'
+import { useTranslation } from "react-i18next"
 
 export function App() {
-  const { t } = useTranslation(["ns1"]);
+  const { t } = useTranslation(["ns1"])
 
   return (
     <>
-      {t(($) => $.job, { ns: "n1" })}
+      {t(($) => $.job_details.title, { ns: 'ns1' })}
 
       {/**
        * This should error since `invalidns` do not exists
@@ -26,6 +27,13 @@ export function App() {
         description.part1` is available in n2 
       */}
       {t(($) => $.description.part1, { ns: "n2" })}
+
+      {t($ => $.job)}
+      {t($ => $.job, { ns: 'ns1' })}
+      {t($ => $.job, { ns: '' })}
+      {t($ => $.job, { ns: 'ns2' })}
+      {t($ => $.description.part1, { ns: 'ns2' })}
+      {t($ => $.description.part1, { ns: '' })}
     </>
-  );
+  )
 }

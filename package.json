@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npm run build -workspaces",
+    "clean": "cd examples/base && rm -rf node_modules && cd ../react-use-translation-ns && rm -rf node_modules && cd ../react-use-translation-ns-selector && rm -rf node_modules && cd ../.. && rm -rf node_modules",
     "typecheck": "npm run typecheck -workspaces"
   },
   "license": "MIT",

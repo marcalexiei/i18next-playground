@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
 
-export function App() {
+export function Ns1() {
   const { t } = useTranslation(["ns1"])
 
   return (
@@ -26,7 +26,7 @@ export function App() {
   )
 }
 
-export function App2() {
+export function Ns2() {
   const { t } = useTranslation(["ns2"])
 
   return (
@@ -50,4 +50,14 @@ export function App2() {
       {t("job", { ns: 'ns1' })}
     </>
   )
+}
+
+export function MultipleNamespaces() {
+  const { t } = useTranslation(['ns1', 'ns2'])
+
+  t('ns2:description.part1')
+  t('description.part1', { ns: 'ns2' })
+  t('job_details.title', { ns: 'ns1' })
+
+  // t($ => $)
 }
