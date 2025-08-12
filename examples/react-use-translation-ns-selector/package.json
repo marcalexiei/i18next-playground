@@ -1,5 +1,5 @@
 {
-  "name": "react-use-translation-ns",
+  "name": "react-use-translation-ns-selector",
   "version": "1.0.0",
   "exports": "./src/index.ts",
   "scripts": {
