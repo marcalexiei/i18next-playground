@@ -15,6 +15,6 @@
     "@types/react": "^19.1.9",
     "i18next": "github:i18next/i18next#a1b11ef1c4519777aeac726c253c00de05d966e4",
     "react": "^19.1.1",
-    "react-i18next": "github:i18next/react-i18next#d78d5a04d068ad4340132beb5ade2cf783554807"
+    "react-i18next": "github:i18next/react-i18next#0330767b06d9d53b84f3fefac6262f1d2aa8350b"
   }
 }
