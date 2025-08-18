@@ -1,0 +1,20 @@
+{
+  "name": "react-trans-component",
+  "version": "1.0.0",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.15.30"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.9",
+    "i18next": "github:i18next/i18next#a1b11ef1c4519777aeac726c253c00de05d966e4",
+    "react": "^19.1.1",
+    "react-i18next": "github:i18next/react-i18next#d78d5a04d068ad4340132beb5ade2cf783554807"
+  }
+}

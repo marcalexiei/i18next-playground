@@ -22,6 +22,25 @@ importers:
         specifier: 22.15.30
         version: 22.15.30
 
+  examples/react-trans-component:
+    dependencies:
+      '@types/react':
+        specifier: ^19.1.9
+        version: 19.1.9
+      i18next:
+        specifier: github:i18next/i18next#a1b11ef1c4519777aeac726c253c00de05d966e4
+        version: https://codeload.github.com/i18next/i18next/tar.gz/a1b11ef1c4519777aeac726c253c00de05d966e4(typescript@5.8.3)
+      react:
+        specifier: ^19.1.1
+        version: 19.1.1
+      react-i18next:
+        specifier: github:i18next/react-i18next#d78d5a04d068ad4340132beb5ade2cf783554807
+        version: https://codeload.github.com/i18next/react-i18next/tar.gz/d78d5a04d068ad4340132beb5ade2cf783554807(i18next@https://codeload.github.com/i18next/i18next/tar.gz/a1b11ef1c4519777aeac726c253c00de05d966e4(typescript@5.8.3))(react@19.1.1)(typescript@5.8.3)
+    devDependencies:
+      '@types/node':
+        specifier: 22.15.30
+        version: 22.15.30
+
   examples/react-use-translation-ns:
     dependencies:
       '@types/react':
@@ -95,8 +114,34 @@ packages:
       typescript:
         optional: true
 
+  i18next@https://codeload.github.com/i18next/i18next/tar.gz/a1b11ef1c4519777aeac726c253c00de05d966e4:
+    resolution: {tarball: https://codeload.github.com/i18next/i18next/tar.gz/a1b11ef1c4519777aeac726c253c00de05d966e4}
+    version: 25.3.6
+    peerDependencies:
+      typescript: ^5
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   react-i18next@15.6.1:
     resolution: {integrity: sha512-uGrzSsOUUe2sDBG/+FJq2J1MM+Y4368/QW8OLEKSFvnDflHBbZhSd1u3UkW0Z06rMhZmnB/AQrhCpYfE5/5XNg==}
+    peerDependencies:
+      i18next: '>= 23.2.3'
+      react: '>= 16.8.0'
+      react-dom: '*'
+      react-native: '*'
+      typescript: ^5
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+      typescript:
+        optional: true
+
+  react-i18next@https://codeload.github.com/i18next/react-i18next/tar.gz/d78d5a04d068ad4340132beb5ade2cf783554807:
+    resolution: {tarball: https://codeload.github.com/i18next/react-i18next/tar.gz/d78d5a04d068ad4340132beb5ade2cf783554807}
+    version: 15.6.1
     peerDependencies:
       i18next: '>= 23.2.3'
       react: '>= 16.8.0'
@@ -157,6 +202,12 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
+  i18next@https://codeload.github.com/i18next/i18next/tar.gz/a1b11ef1c4519777aeac726c253c00de05d966e4(typescript@5.8.3):
+    dependencies:
+      '@babel/runtime': 7.27.6
+    optionalDependencies:
+      typescript: 5.8.3
+
   react-i18next@15.6.1(i18next@25.2.1(typescript@5.8.3))(react@19.1.1)(typescript@5.8.3):
     dependencies:
       '@babel/runtime': 7.27.6
@@ -171,6 +222,15 @@ snapshots:
       '@babel/runtime': 7.27.6
       html-parse-stringify: 3.0.1
       i18next: https://codeload.github.com/i18next/i18next/tar.gz/19b98c6(typescript@5.8.3)
+      react: 19.1.1
+    optionalDependencies:
+      typescript: 5.8.3
+
+  react-i18next@https://codeload.github.com/i18next/react-i18next/tar.gz/d78d5a04d068ad4340132beb5ade2cf783554807(i18next@https://codeload.github.com/i18next/i18next/tar.gz/a1b11ef1c4519777aeac726c253c00de05d966e4(typescript@5.8.3))(react@19.1.1)(typescript@5.8.3):
+    dependencies:
+      '@babel/runtime': 7.27.6
+      html-parse-stringify: 3.0.1
+      i18next: https://codeload.github.com/i18next/i18next/tar.gz/a1b11ef1c4519777aeac726c253c00de05d966e4(typescript@5.8.3)
       react: 19.1.1
     optionalDependencies:
       typescript: 5.8.3
