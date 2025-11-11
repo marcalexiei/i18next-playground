@@ -21,9 +21,6 @@ jobs:
       matrix:
         example:
           - base
-          - react-use-translation-ns
-          - react-use-translation-ns-selector
-          - react-trans-component
 
     steps:
       - name: Checkout

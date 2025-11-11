@@ -1,2 +1,7 @@
 packages:
   - ./examples/**
+
+catalogs:
+  "*":
+    "i18next": 25.6.2
+    "react-i18next": "github:i18next/react-i18next#578fdff53c58fa6d1d2f20da9baecbd948266c56"
