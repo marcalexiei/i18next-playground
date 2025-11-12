@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // Typechecking
+    "strictNullChecks": true,
+
+    // Modules
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+
+    // Emit
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "outDir": "dist",
+
+    // Interop Constraints
+    "esModuleInterop": true,
+    "target": "ES2022",
+
+    // Language and Environment
+    "lib": ["ES2022"]
+  }
+}

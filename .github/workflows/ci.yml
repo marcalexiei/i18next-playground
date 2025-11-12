@@ -20,7 +20,7 @@ jobs:
     strategy:
       matrix:
         example:
-          - base
+          - react-trans-component-type-safe-selector
 
     steps:
       - name: Checkout
@@ -32,4 +32,4 @@ jobs:
           node-version: 24
 
       - name: Typecheck
-        run: pnpm run --filter="${{ matrix.example }}" typecheck
+        run: pnpm run --filter="./examples/${{ matrix.example }}" typecheck

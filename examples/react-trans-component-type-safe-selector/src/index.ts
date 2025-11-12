@@ -17,7 +17,7 @@ i18next.init(
     defaultNS,
   },
   (_, t) => {
-    const jobDetailsTitle = t("job_details.title");
+    const jobDetailsTitle = t(($) => $.job_details.title);
     console.info(jobDetailsTitle);
   }
 );
