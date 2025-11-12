@@ -5,8 +5,5 @@
   "job": "Jobs {{title}}",
   "job_details": {
     "title": "sample test"
-  },
-
-  "food": "food",
-  "food_pizza": "pizza"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "name": "react-trans-component-type-safe",
+  "version": "1.0.0",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.15.30"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.9",
+    "i18next": "catalog:*",
+    "react": "^19.1.1",
+    "react-i18next": "catalog:*"
+  }
+}
