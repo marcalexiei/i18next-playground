@@ -12,6 +12,6 @@
     "@types/node": "22.15.30"
   },
   "dependencies": {
-    "i18next": "catalog:*"
+    "i18next": "catalog:default"
   }
 }
