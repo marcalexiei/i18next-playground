@@ -9,12 +9,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "22.15.30"
+    "@types/node": "24.10.10"
   },
   "dependencies": {
-    "@types/react": "^19.1.9",
+    "@types/react": "^19.2.11",
     "i18next": "catalog:default",
-    "react": "^19.1.1",
+    "react": "^19.2.4",
     "react-i18next": "catalog:default"
   }
 }

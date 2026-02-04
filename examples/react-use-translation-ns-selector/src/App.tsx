@@ -36,6 +36,7 @@ export function Ns1() {
       {t(($) => $.job, { ns: "" })}
       {/* @ts-expect-error */}
       {t(($) => $.job, { ns: "ns2" })}
+      {/* @ts-expect-error */}
       {t(($) => $.description.part1, { ns: "ns2" })}
       {/* @ts-expect-error */}
       {t(($) => $.description.part1, { ns: "" })}

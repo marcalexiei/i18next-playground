@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "22.15.30"
+    "@types/node": "24.10.10"
   },
   "dependencies": {
     "i18next": "catalog:default"

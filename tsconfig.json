@@ -11,7 +11,7 @@
     // Emit
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "${configDir}/dist",
 
     // Interop Constraints
     "esModuleInterop": true,
