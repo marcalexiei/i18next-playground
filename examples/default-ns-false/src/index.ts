@@ -14,7 +14,7 @@ i18next.init(
     defaultNS: false,
   },
   (_, t) => {
-    const jobDetailsTitle = t($ => $.job_details.title, { ns: 'ns1' });
+    const jobDetailsTitle = t(($) => $.prova, { ns: "ns1" });
     console.info(jobDetailsTitle);
   },
 );
