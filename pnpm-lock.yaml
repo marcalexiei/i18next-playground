@@ -126,6 +126,25 @@ importers:
         specifier: 24.10.10
         version: 24.10.10
 
+  examples/single-namespace:
+    dependencies:
+      '@types/react':
+        specifier: ^19.2.11
+        version: 19.2.11
+      i18next:
+        specifier: catalog:default
+        version: 25.8.3(typescript@5.9.3)
+      react:
+        specifier: ^19.2.4
+        version: 19.2.4
+      react-i18next:
+        specifier: catalog:default
+        version: 16.5.4(i18next@25.8.3(typescript@5.9.3))(react@19.2.4)(typescript@5.9.3)
+    devDependencies:
+      '@types/node':
+        specifier: 24.10.10
+        version: 24.10.10
+
 packages:
 
   '@babel/runtime@7.28.6':
