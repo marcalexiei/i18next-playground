@@ -62,6 +62,7 @@ jobs:
       - get-examples
 
     strategy:
+      fail-fast: false
       matrix:
         example-name: ${{ fromJson(needs.get-examples.outputs.names) }}
         node-version:
