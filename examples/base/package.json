@@ -1,17 +1,17 @@
 {
   "name": "base",
   "version": "1.0.0",
+  "license": "MIT",
   "exports": "./src/index.ts",
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
     "typecheck": "tsc --noEmit"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "24.10.10"
-  },
   "dependencies": {
     "i18next": "catalog:default"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.10"
   }
 }

@@ -2,6 +2,7 @@
   "extends": "../../tsconfig.json",
   "exclude": ["dist"],
   "compilerOptions": {
+    "types": ["node"],
     "jsx": "react-jsx",
     "skipLibCheck": true
   }

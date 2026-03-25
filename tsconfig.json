@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "rootDir": "${configDir}/src",
+
     // Typechecking
     "strictNullChecks": true,
 

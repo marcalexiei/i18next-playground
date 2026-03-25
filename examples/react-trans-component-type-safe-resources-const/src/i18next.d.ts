@@ -1,12 +1,12 @@
-import type { defaultNS, resources } from "./index.js";
+import type { defaultNS, resources } from './index.js';
 
-declare module "i18next" {
+declare module 'i18next' {
   interface CustomTypeOptions {
     defaultNS: typeof defaultNS;
     resources: {
       custom_ns: {
-        hello: "Hello {{name}}";
-        tired: "a lot";
+        hello: 'Hello {{name}}';
+        tired: 'a lot';
       };
     };
   }
