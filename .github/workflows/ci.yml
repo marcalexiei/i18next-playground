@@ -1,7 +1,7 @@
 name: CI
 
 concurrency:
-  group: '${{ github.workflow }}-${{ github.head_ref || github.ref }}'
+  group: "${{ github.workflow }}-${{ github.head_ref || github.ref }}"
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 on:
@@ -84,3 +84,22 @@ jobs:
 
       - name: Run tests
         run: pnpm --filter=${{ matrix.example-name }} run typecheck
+
+  code-checks:
+    name: Code checks
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install Dependencies
+        uses: ./.github/actions/install-dependencies
+
+      - name: Format
+        run: pnpm run format

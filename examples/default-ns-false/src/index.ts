@@ -10,7 +10,6 @@ i18next.init(
   {
     lng: 'en', // if you're using a language detector, do not define the lng option
     debug: false,
-    showSupportNotice: false,
     resources: resources,
     defaultNS: false,
   },
