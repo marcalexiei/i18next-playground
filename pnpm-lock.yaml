@@ -40,8 +40,8 @@ importers:
         version: 26.0.3(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
   examples/default-ns-false:
     dependencies:
@@ -59,8 +59,8 @@ importers:
         version: 17.0.2(i18next@26.0.3(typescript@6.0.2))(react@19.2.4)(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
   examples/react-trans-component-type-safe:
     dependencies:
@@ -78,8 +78,8 @@ importers:
         version: 17.0.2(i18next@26.0.3(typescript@6.0.2))(react@19.2.4)(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
   examples/react-trans-component-type-safe-resources-const:
     dependencies:
@@ -97,8 +97,8 @@ importers:
         version: 17.0.2(i18next@26.0.3(typescript@6.0.2))(react@19.2.4)(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
   examples/react-trans-component-type-safe-selector:
     dependencies:
@@ -116,8 +116,8 @@ importers:
         version: 17.0.2(i18next@26.0.3(typescript@6.0.2))(react@19.2.4)(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
   examples/react-use-translation-ns:
     dependencies:
@@ -135,8 +135,8 @@ importers:
         version: 17.0.2(i18next@26.0.3(typescript@6.0.2))(react@19.2.4)(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
   examples/react-use-translation-ns-selector:
     dependencies:
@@ -154,8 +154,8 @@ importers:
         version: 17.0.2(i18next@26.0.3(typescript@6.0.2))(react@19.2.4)(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
   examples/t-function-type:
     dependencies:
@@ -173,8 +173,8 @@ importers:
         version: 17.0.2(i18next@26.0.3(typescript@6.0.2))(react@19.2.4)(typescript@6.0.2)
     devDependencies:
       '@types/node':
-        specifier: 24.10.10
-        version: 24.10.10
+        specifier: 26.6.6
+        version: 26.6.6
 
 packages:
 
@@ -309,8 +309,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/node@24.10.10':
-    resolution: {integrity: sha512-+0/4J266CBGPUq/ELg7QUHhN25WYjE0wYTPSQJn1xeu8DOlIOPxXxrNGiLmfAWl7HMMgWFWXpt9IDjMWrF5Iow==}
+  '@types/node@26.6.6':
+    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
 
   '@types/react@19.2.14':
     resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
@@ -371,8 +371,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   use-sync-external-store@1.6.0:
     resolution: {integrity: sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==}
@@ -448,9 +448,9 @@ snapshots:
   '@oxfmt/binding-win32-x64-msvc@0.72.0':
     optional: true
 
-  '@types/node@24.10.10':
+  '@types/node@26.6.6':
     dependencies:
-      undici-types: 7.16.0
+      undici-types: 8.9.0
 
   '@types/react@19.2.14':
     dependencies:
@@ -508,7 +508,7 @@ snapshots:
 
   typescript@6.0.2: {}
 
-  undici-types@7.16.0: {}
+  undici-types@8.9.0: {}
 
   use-sync-external-store@1.6.0(react@19.2.4):
     dependencies:

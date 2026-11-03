@@ -67,6 +67,7 @@ jobs:
         example-name: ${{ fromJson(needs.get-examples.outputs.names) }}
         node-version:
           - 24
+          - 26
         os:
           - ubuntu-latest
 
