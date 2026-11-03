@@ -12,6 +12,6 @@
     "i18next": "catalog:default"
   },
   "devDependencies": {
-    "@types/node": "26.6.6"
+    "@types/node": "catalog:default"
   }
 }
